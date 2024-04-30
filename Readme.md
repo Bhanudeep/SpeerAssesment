@@ -6,13 +6,12 @@ I have used MongoDB as a database to my application. \
 Built Frontend to call the Api's that i've built.\
 I have created UI modules to make use of the functionalities of this application.
 1) Implemented User Registraion and User login with authentication. 
-2) Every user can create a note, 
-3) delete a note by entering the corresponding id, 
-4) update the contents of the note by entering the corresponding id 
-5) and share their note with another user by entering username(case sensitive) and corresponding id. 
-   
+2) User 'must' registered to access the functionality of this appllication.
+3) User must Enter the Job description and upload the resume to get matching score and explanation of that score.
+4) The score is displayed along with a brief explanation of reason for this score.
+5) I have adjusted the system role promt by testing various examples.
 Instructions to run  the application locally: \
-Install MongoDb locally and Set environment variable of mongodb to path.\
+Set up MongoDB atlas credentails and create a database to connect with this application.
 Install Python 3 and install flask framework and pymongo package using pip \
 pip install flask \
 pip install pymongo \
