@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Update Note</title>
+    <title>Share Note</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -182,23 +182,23 @@
             <div class="container" id="container2" name="container2">      <!-- Starting of container-2  -->
               <form name="create_folders" method="POST" enctype="multipart/form-data">           <!-- Form to  create folder -->
                 <center>
-                  <h2 style="color:#540569">Update Notes</h2>
+                  <h2 style="color:#540569">Share Notes</h2>
                 </center>
                 <br>
                 </h5>
-                <label><h4 style="color: #040404;">Enter Note ID to Update</h4></label>
+                <label><h4 style="color: #040404;">Enter Note ID to Share</h4></label>
                 <div class="input-group mb-3">
                   <input name="department" type="text" class="form-control" placeholder="Enter only the alphanumeric value shown in ( )" maxlength="30" onkeyup="checkdepartment()" style="border-color: #090609" >
                 </div>
                 <span id="department_alert" style="color: red;"></span>
-                <label><h4 style="color: #040404;">Enter Note content</h4></label>
+                <label><h4 style="color: #040404;">Enter UserID</h4></label>
                 <div class="input-group mb-3">
-                  <input name="Message" type="text" class="form-control" placeholder=" Enter content" maxlength="30" onkeyup="checkdepartment()" style="border-color: #090609" >
+                  <input name="Message" type="text" class="form-control" placeholder=" Enter UserID to share with(Case Sensitive)" maxlength="30" onkeyup="checkdepartment()" style="border-color: #090609" >
                 </div>
                 <span id="department_alert" style="color: red;"></span>
                 
                 <center>
-                  <button type="submit" id="create_folders_button" formaction="/Update_Note" class="btn btn-primary" style="color: black;width: 240px;font-size: 22px;" >Update Note</button>
+                  <button type="submit" id="create_folders_button" formaction="/Share_Note" class="btn btn-primary" style="color: black;width: 240px;font-size: 22px;" >Update Note</button>
                   <br>
                   <br>
                   <span id="submit_alert" style="color: green;font-size: 20px;"></span>

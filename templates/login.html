@@ -1,6 +1,6 @@
 <html>
   <head> 
-    <title>Alindor</title>
+    <title>App</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -10,7 +10,7 @@
   </head>
   <body>
     <header class="d-flex justify-content-center">              <!-- header starts -->
-      <center>Alindor:Job profile match score analysis</center>
+      <center>Application</center>
     </header>                                                   <!-- header ends here -->
     <br>
     <div class="container">                                                               <!-- container starts -->
@@ -57,6 +57,7 @@
                                   <div class="row">
                                     <div class="col">
                                       <a href="{{url_for('register')}}">New User ?</a><br>
+                                      <a href="{{url_for('forgot')}}">Forgot Password ?</a>
                                     </div>
                                     <div class="col">
                                       <button type="submit" class="btn btn-success btn-lg float-right" id="login_button" onclick="login_stmt();">Login</button>
@@ -71,7 +72,7 @@
       </div>            <!--/row division-1 ends here -->
     </div>        <!--/container ends here -->
   <div id="footer" class="d-flex justify-content-center">
-    Designed in 2024
+    Designed in 2022
     </div>
   </body>
 </html>
