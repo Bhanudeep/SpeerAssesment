@@ -15,7 +15,7 @@ Set up MongoDB atlas credentails and create a database to connect with this appl
 Install Python 3 and install flask framework and pymongo package using pip \
 pip install flask \
 pip install pymongo \
-pip install flask_pymongo 
+pip install flask_pymongo \
 
 After successful installation of all the dependencies proceed to run the application using command "python server.py" .
 
