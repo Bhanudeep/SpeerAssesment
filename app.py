@@ -8,11 +8,11 @@ from flask_cors import CORS
 app = Flask(__name__, static_url_path='/static')
 CORS(app)
 app.secret_key = '?&Kjhd$^ljm>x21'
-API_KEY='sk-proj-qHEiIcvVgbDbp2pM5iaYT3BlbkFJwrB8cB37bmJvfSIhYuvr'
+API_KEY=''
 openai.api_key=API_KEY
 prompt="give the score of candidate from 1 to 10 and an explanation of the score based on the job description and candidate information, brief the explanation in just 4 sentences."
 Role="you are the hiring manager, you need to analyse the 'job description' and 'candidate information' stringently and give me a score out of 10 on how the job description and profile matches. Scoring should be not too generous or not too strict"
-MONGO_URI ='mongodb+srv://bhanudeepsimhadry:SzhrIq0Rr1lvoCIX@cluster0.uzc2pev.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGO_URI =''
 cluster = MongoClient(MONGO_URI)  
 db=cluster["AppLogin"]
 collection=db["users"]
